@@ -2,6 +2,7 @@
 
 This is an Application to log visitors entrance and exit from an institution. 
 this app is created with angular and use Firebase to archive the data.
+[View Live Demo](https://visitors-app.netlify.com)
 
 ## Pre requisites
 
