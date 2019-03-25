@@ -1,0 +1,13 @@
+<div class="row shadow-sm d-flex" >
+  <div class="col-xs-12 col-md-6">
+    <h3>{{visitor.name}}</h3>
+  </div>
+  <div class="col-xs-12 col-md-6"><p>{{visitor.company}}</p></div>
+  <div class="col-xs-12 col-md-6">
+    <span>arrived at: {{visitor.arrived_time}}</span> | 
+    <span *ngIf="visitor.exit_time.length" >leave at: {{visitor.exit_time}}</span>
+    <button *ngIf="!visitor.exit_time.length" (click)="checkOut(visitor)" class="btn btn-outline-primary">Check out</button>
+  </div>
+
+</div>
+

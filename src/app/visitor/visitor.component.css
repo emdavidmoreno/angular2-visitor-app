@@ -1,0 +1,7 @@
+app-visitor{
+  margin: 1em;
+}
+.shadow-sm {
+  border: 1px solid #efefef;
+  min-height: 90px;
+}
