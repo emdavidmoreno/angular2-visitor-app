@@ -1,5 +1,5 @@
 <div class="visitor-form">
-  <button *ngIf="!isFormOpen" class="btn btn-outline-primary" (click)="addVisitor()">Add Visitor</button>
+  <button *ngIf="!isFormOpen" class="btn btn-outline-primary" (click)="showVisitorForm()">Add Visitor</button>
   <div class="form" [formGroup]="visitorForm" *ngIf="isFormOpen">
     <div class="form-group">
       <label for="name">Name</label>

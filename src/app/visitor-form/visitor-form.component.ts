@@ -31,7 +31,7 @@ export class VisitorFormComponent implements OnInit {
     this.visitorForm.reset();
   }
 
-  public addVisitor() {
+  public showVisitorForm() {
     this.isFormOpen = true;
   }
 
