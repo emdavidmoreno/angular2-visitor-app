@@ -10,8 +10,8 @@ import { VisitorService } from '../services/visitor.service';
 export class VisitorFormComponent implements OnInit {
 
   @Input() visitorForm: FormGroup;
-  private isFormOpen;
-  constructor(private service: VisitorService ) {}
+  isFormOpen;
+  constructor(private service: VisitorService) { }
 
   /**
    * addVisitor
